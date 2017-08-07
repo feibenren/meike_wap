@@ -1,0 +1,44 @@
+.head_wechat {
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  color: #fff;
+  z-index: 9999999;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  transition: all 0.3s;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.head_wechat.active {
+  top: -100%;
+}
+
+.head_wechat div.icon {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  text-align: center;
+}
+
+.head_wechat div.icon img {
+  width: 30px;
+}
+
+.head_wechat ul {
+  -webkit-box-flex: 30;
+      -ms-flex: 30;
+          flex: 30;
+  list-style: none;
+}
+
+.head_wechat ul li {
+  font-size: 14px;
+  line-height: 1.2;
+}

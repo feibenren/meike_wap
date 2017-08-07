@@ -1,0 +1,58 @@
+.wechat_icon {
+  position: fixed;
+  right: 0;
+  bottom: 50%;
+  z-index: 9999;
+  -webkit-transform: scale(0.5, 0.5) translateX(50px);
+          transform: scale(0.5, 0.5) translateX(50px);
+}
+
+.center_wechat_box {
+  z-index: 9999999;
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 50px;
+}
+
+.center_wechat_box.active {
+  display: block;
+}
+
+.center_wechat_box span.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  margin: 10px;
+}
+
+.center_wechat_box .wechat_num {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #d01717;
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.center_wechat_box p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.center_wechat_box p span {
+  font-size: 20px;
+}

@@ -1,0 +1,35 @@
+.head_wechat {
+  background-color: #000;
+  display: flex;
+  position: fixed;
+  width:100%;
+  color: #fff;
+  z-index: 9999999;
+  top:0;
+  left:50%;
+  transform: translateX(-50%);
+  max-width:7.5rem;
+  transition: all 0.3s;
+  text-decoration: none;
+  padding:0.1rem;
+  &.active{
+    top:-100%;
+    //top:0%;
+  }
+  div.icon{
+    flex:5;
+    text-align: center;
+    img{
+      width:0.3rem;
+      //transform: scale(0.6,0.6);
+    }
+  }
+  ul {
+    flex:30;
+    list-style: none;
+    li{
+      font-size:0.14rem;
+      line-height:1.2;
+    }
+  }
+}

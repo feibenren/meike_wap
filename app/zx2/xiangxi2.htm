@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>详细资料</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+<script type="text/javascript">
+    function GetQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null)return unescape(r[2]);
+        return null;
+    }
+    var TelNum = GetQueryString("wxid");
+
+
+</script>
+
+<header class="ly-header">
+    <nav><a href="javascript:history.go(-1);"><i></i></a> <a></a>
+        <h2 style="text-align:center;">详细资料</h2>
+    </nav>
+</header>
+<section class="ly-section1">
+    <dl class="ziliao mg15-0">
+        <dt><img src="./images/header.png"></dt>
+        <dd>
+            <h2>韩国院长微信在线</h2>
+            <p>微信号：<span><script>document.write(TelNum)</script></span>（长按复制）</p>
+        </dd>
+    </dl>
+    <div class="setbeizhu">设置备注和标签</div>
+    <div class="photos mg15-0">
+        <dl>
+            <dt>个人相册</dt>
+            <dd>
+                <li><img src="./images/fk2.jpg"></li>
+                <li><img src="./images/fk3.jpg"></li>
+                <li><img src="./images/fk4.jpg"></li>
+            </dd>
+        </dl>
+        <p><a href="/">更多</a></p>
+    </div>
+    <div class="sendmsg"><a href="javascript:history.go(-1);">发消息</a></div>
+    <div class="sendbtn"><a href="/">返回首页</a><script>document.write("<a href=tel:"+TelNum+">电话咨询</a>")</script><a href="weixin://">打开微信</a></div>
+
+
+
+</section>
+
+
+</body>
+</html>
