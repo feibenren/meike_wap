@@ -13,6 +13,9 @@ $.get('/zx2/js/teacher_data.js',function (data) {
     $('.wechat_icon').click(function() {
         $('.center_wechat_box').toggleClass('active');
     });
+    $('.head_wechat .icon').click(function() {
+        $('.center_wechat_box').toggleClass('active');
+    });
     $('.center_wechat_box .close').click(function() {
         $('.center_wechat_box').toggleClass('active');
     });
