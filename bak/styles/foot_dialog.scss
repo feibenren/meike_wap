@@ -1,0 +1,128 @@
+.head_wechat {
+  background-color: #000;
+  display: flex;
+  position: fixed;
+  width:100%;
+  color: #fff;
+  z-index: 9999999;
+  top:0;
+  left:50%;
+  transform: translateX(-50%);
+  max-width:7.5rem;
+  transition: all 0.3s;
+  text-decoration: none;
+  padding:0.1rem;
+  &.active{
+    top:-100%;
+    //top:0%;
+  }
+  div.icon{
+    flex:5;
+    text-align: center;
+    img{
+      width:0.3rem;
+      //transform: scale(0.6,0.6);
+    }
+  }
+  ul {
+    flex:30;
+    list-style: none;
+    li{
+      font-size:0.14rem;
+      line-height:1.2;
+    }
+  }
+}
+
+
+
+.foot_dialog {
+  position: fixed;
+  left: 50%;
+  z-index:99999999999;
+  transform: translateX(-50%);
+  width:100%;
+  max-width:750px;
+  bottom: -100%;
+  background-color: #fff;
+  transition: all 0.5s;
+  &.active{
+    bottom:80px;
+  }
+  div.dialog_header {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    padding:0.05rem;
+    text-align: center;
+    img{
+      width:80%;
+    }
+    span.close {
+      float: right;
+      cursor: pointer;
+      padding: 0 10px;
+      font-size:0.2rem;
+    }
+  }
+  div.dialog_body {
+    width: 100%;
+    padding:0.05rem;
+    div.dialog {
+      display: flex;
+      padding: 0.1rem 0;
+      &:nth-of-type(2) {
+        display: none;
+      }
+      div.icon {
+        text-align: center;
+        flex: 10;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        img {
+          max-height:0.4rem;
+          display: flex;
+        }
+      }
+      div.text {
+        flex: 90;
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        p {
+          background-color: #7ebbe4;
+          border-radius:0.1rem;
+          padding: 5px 10px;
+          line-height: 1.5;
+          font-size:0.12rem;
+        }
+      }
+    }
+  }
+  div.dialog_footer {
+    background-color: #eaebed;
+    padding: 0.05rem;
+    text-align: center;
+    a {
+      display: inline-block;
+      width: 45%;
+      text-decoration: none;
+      color: #fff;
+      padding: 5px;
+      border-radius: 0.1rem;
+      font-size:0.14rem;
+      &:nth-of-type(1) {
+        background-color: #DD4A00;
+      }
+      &:nth-of-type(2) {
+        background-color: #000;
+      }
+    }
+  }
+}
+
+

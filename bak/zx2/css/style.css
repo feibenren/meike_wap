@@ -1,0 +1,80 @@
+*{margin:0;padding:0;box-sizing:border-box;-webkit-box-sizing:border-box;
+    font-family:'Microsoft YaHei';}
+#LRdiv0,#LRfloater0{display:none}
+#LRdiv1,#LXB_CONTAINER_SHOW,#LRfloater0{display:none !important;}
+html{background:#f5f5f5;}
+body{max-width:640px;margin:0 auto;font-size:14px;background:#ebebeb}
+a{text-decoration:none;}
+.ly-header{position:fixed;top:0;z-index:10;width:100%;max-width:640px;}
+.ly-header nav{height:40px;background:#393a3f;}
+.ly-header nav a:nth-child(1){float:left;width:50px;height:40px;background:url(../images/wechat.png) no-repeat scroll 20px 12px;}
+.ly-header nav a i{float:right;width:1px;height:20px;margin:10px 0 0 0;background:#2e2e32}
+.ly-header nav h2{color:#FFF;font-size:16px;line-height:40px;text-indent:10px;}
+.ly-header nav a:nth-child(2){float:right;width:50px;height:40px;background:url(../images/wechat.png) no-repeat scroll 14px -42px;}
+.ly-section1{min-height:100%;padding:40px 0 0 0;background:#ebebeb}
+.ly-section1 .line{margin:0 10px 0 10px;}
+.ly-section1 .left{float:left;max-width:80%;margin:10px 0 0 0;}
+.ly-section1 .left div{position:relative;margin:0 0 0 55px;padding:10px;background:#FFF;color:#323232;border:1px solid #d5d5d5; border-radius:6px;}
+.ly-section1 .left div i{position:absolute;top:12px;left:-20px;width:20px;height:20px;background:url(../images/wechat.png) no-repeat scroll 0 -200px;transform:rotate(-180deg)}
+.ly-section1 .left img{float:left;margin:0 5px 0 0;}
+.ly-section1 .left div img{float:none;}
+.ly-section1 figure{ width:95%;margin:80px auto 0;overflow:hidden;padding:15px 0;border-bottom:1px solid #CCCCCC;}
+.ly-section1 .zzh{ width:100%; float:left; display:block; }
+.ly-section1 figcaption{ width:68%; float:left; margin-left:2%;}
+.ly-footer{position:fixed;bottom:0;width:100%;max-width:640px;height:50px;background:#FFF;border-top:1px solid #bfbfbf}
+.ly-footer div{width:100%;}
+.ly-footer div:nth-child(1){max-width:50px;}
+.ly-footer div:nth-child(1){max-width:50px;}
+.ly-footer div:nth-child(3){max-width:50px;}
+.ly-footer div:nth-child(1) a{float:left;width:50px;height:50px;background:url(../images/wechat.png) no-repeat scroll 9px -89px;}
+.ly-footer div:nth-child(2) textarea{width:80%;height:36px;margin:7px 0 0 0px;color:#000;font-size:18px;line-height:35px;border:none;border-bottom:1px solid #d8d8d8;transition:0.3s;resize:none;overflow-y:auto;outline:none;}
+.ly-footer div:nth-child(2) textarea:focus{border:none;border-bottom:1px solid #45c01a;}
+.ly-footer div:nth-child(2) textarea.on{border-bottom:#45c01a}
+.ly-footer div:nth-child(2) i{}
+.ly-footer div:nth-child(3) a{position:absolute;top:0;right:0;width:65px;height:35px;margin:7px 5px 0 0;background:#45c01a;color:#FFF;text-align:center;line-height:35px;border-radius:5px;cursor:pointer;transition:0.3s;}
+.ly-footer div:nth-child(3) a:hover{background-color:#3aa814;}
+.ly-footer div button{position:absolute;top:0;right:0;width:65px;height:35px;margin:7px 5px 0 0;background:#45c01a;color:#FFF;text-align:center;font-size:16px;line-height:35px;border-radius:5px;cursor:pointer;transition:0.3s;border:none;}
+
+.ly-clear{clear:both;}
+.ly-hide{display:none;}
+.ly-animation-bell{display:inline-block;color:#F00;transition:0.5s;}
+.ly-animation-bell.on{animation:ly-animation-bell 0.5s;}
+.talk {padding:0 0 60px 0;
+    font-size:14px;
+    line-height:1.7;}
+.talk .right{float:right;max-width:80%;margin:10px 0 0 0;}
+.talk .right img{float:right;margin:0 0 0 5px;}
+.talk .right div{position:relative;min-height:41px;margin:0 55px 0 0;padding:10px;background:#FFF;color:#323232;border:1px solid #d5d5d5; border-radius:6px;}
+.talk .right div i{position:absolute;top:15px;right:-20px;width:20px;height:20px;background:url(../images/wechat.png) no-repeat scroll 0 -200px;}
+
+.mg15-0{margin:15px 0;}
+.ziliao{width:100%;background:#fff;float:left;padding:10px;}
+.ziliao dt{float:left;width:18%;}
+.ziliao dt img{width:100%;border-radius:4px;}
+.ziliao dd{float:left;margin-left:10px;}
+.ziliao dd h2{font-size:16px;line-height:2;font-weight:normal;color:#444;}
+.ziliao dd p{color:#888;line-height:2;}
+.setbeizhu{width:100%;background:#fff;float:left;padding:10px;font-size:16px;color:#444;}
+.setbeizhu span{float:right;font-size:14px;color:#888;}
+.setbeizhu em{font-style:normal;color:#888;margin-left:10px;font-size:14px;}
+.photos{width:100%;background:#fff;float:left;padding:10px 10px 5px;color:#444;}
+.photos dl{width:100%;border-bottom:#ddd 1px solid;float:left;padding:0 0 10px;display:table;}
+.photos dl dt{width:80px;height:100%;line-height:100%;vertical-align:middle;display:table-cell;font-size:16px;}
+.photos dl dd{float:left;width:80%;}
+.photos dl dd li{list-style:none;float:left;max-width:30%;margin-left:3%;}
+.photos dl dd li img{max-width:100%;float:left;}
+.photos p{float:left;font-size:16px;width:100%;line-height:2;}
+.photos p a{color:#444;display:block;width:100%;text-indent:5px;}
+.sendmsg{width:90%;margin:0 5%;float:left;}
+.sendmsg a{width:100%;display:block;background:#1aac19;border:#119e10 1px solid;color:#fff;text-align:center;line-height:2.6;border-radius:5px;font-size:18px;}
+.sendbtn{width:90%;margin:15px 5%;float:left;background:#fff;border-radius:5px;border:#ddd 1px solid;padding:5px;text-align:center;}
+.sendbtn a{width:30%;margin:0 1.5%;display:inline-block;background:#1aac19;border:#119e10 1px solid;color:#fff;text-align:center;line-height:2.4;border-radius:5px;font-size:16px;}
+
+@keyframes ly-animation-bell{
+    0%{transform:rotate(-5deg);}
+    20%{transform:rotate(10deg);}
+    40%{transform:rotate(-15deg);}
+    60%{transform:rotate(20deg);}
+    80%{transform:rotate(-15deg);}
+    100%{transform:rotate(10deg);}
+}

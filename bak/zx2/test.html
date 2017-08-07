@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
+
+
+
+<img id=img1 style="margin: 0;padding: 0;"  data-clipboard-text="17301639475" src="http://m.me-colour.com/img/170628.png"  width="100%">
+
+<script src="https://cdn.bootcss.com/jquery/2.0.1/jquery.min.js"></script>
+<script src="http://www.jq22.com/demo/copy20161120/dist/clipboard.min.js"></script>
+<script>
+    var clipboard = new Clipboard(document.querySelectorAll('#img1'));
+    $("#img1").click(function (ev) {
+        ev.preventDefault();
+    })
+</script>
+
+
